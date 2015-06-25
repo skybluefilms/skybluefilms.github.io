@@ -2013,7 +2013,6 @@ th {
   padding: 0; }
 
 html {
-  height: 100%;
   box-sizing: border-box;
   background: #3BBFDD url(/dist/img/pylons--alt-2880.png) no-repeat center bottom;
   -webkit-background-size: cover;
