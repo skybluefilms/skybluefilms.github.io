@@ -5,10 +5,7 @@
 
 html {
    box-sizing: border-box;
-   background: $primary-color url(/dist/img/pylons--alt-2880.png) no-repeat center bottom;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
+   background: $primary-color;
 }
 
 *, *:before, *:after {
@@ -18,6 +15,10 @@ html {
 
 body {
   color: $body_text--light;
+  background: url(/dist/img/pylons--alt-2880.png) no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   // display: flex;
   // min-height: 100vh;
   // flex-direction: column;

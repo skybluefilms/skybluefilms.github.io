@@ -2014,16 +2014,17 @@ th {
 
 html {
   box-sizing: border-box;
-  background: #3BBFDD url(/dist/img/pylons--alt-2880.png) no-repeat center bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+  background: #3BBFDD; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 body {
-  color: #fff; }
+  color: #fff;
+  background: url(/dist/img/pylons--alt-2880.png) no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
 
 ul {
   list-style-type: none; }
